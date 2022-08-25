@@ -41,31 +41,14 @@ const LoginScreen = (props) => {
     return (
         <Screen
             type={'fixed'}
-            style={{ padding: 20 }}
+            style={{ padding: 20,  }}
         >
             <StatusBar backgroundColor='rgba(0,0,0,0.5)' barStyle="light-content" translucent={true} />
 
             <View style={[defaultStyles.container, {}]}>
-                <Text style={[defaultStyles.baseTextBold, { fontSize: 38, paddingTop: 40 }]}>
-                    Masuk
-                </Text>
-                <Text style={[defaultStyles.baseText, {}]}>
-                    Masuk dengan menggunakan nomor handphone
-                </Text>
+                <Text style={[defaultStyles.baseTextExtraBold, { fontSize: 42, paddingTop: 40 }]}>Login</Text>
+                <Text style={[defaultStyles.baseText, {}]}>Masuk ke akun Anda</Text>
                 <View style={{ paddingTop: 40 }} >
-                    <Text style={[defaultStyles.baseText, { paddingTop: 10 }]}>
-                        Kami akan mengirimkan kode verifikasi ke nomor handphone
-                    </Text>
-                    {/* <TextField
-                        onChangeText={onChangeText}
-                        value={phoneNumber}
-                        label={'Nomor Handphone'}
-                        placeholder={'Nomor Handphone'}
-                        keyboardType='numeric'
-                        textType='phoneNumber'
-                        maxLength={13}
-                        textStyle={{ flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10, paddingVertical: 8 }}
-                    /> */}
                     <TextField
                         onChangeText={(val) => setPhoneNumber(val)}
                         value={phoneNumber}

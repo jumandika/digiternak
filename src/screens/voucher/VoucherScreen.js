@@ -148,7 +148,7 @@ const VoucherScreen = ({ navigation }) => {
                 <Button
                     onPress={gotoCheckout}
                     style={{ height: 40, borderRadius: 4, margin: 10,  }}
-                    fontStyle={{ fontSize: 16, fontFamily: fontStyle.MulishBold }}
+                    fontStyle={{ fontSize: 16, fontFamily: fontStyle.NunitoSansBold }}
                     label={'OK'}
 
                 />

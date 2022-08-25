@@ -1,11 +1,11 @@
 
 
 export default {
-    MulishBold: 'Mulish-Bold',
-    MulishExtraBold: 'Mulish-ExtraBold',
-    MulishSemiBold: 'Mulish-SemiBold',
-    MulishRegular: 'Mulish-Regular',
-    MulishLight: 'Mulish-Light',
-    MulishMedium: 'Mulish-Medium',
-    MulishItalic: 'Mulish-Italic',
+    NunitoSansBold: 'NunitoSans-Bold',
+    NunitoSansExtraBold: 'NunitoSans-ExtraBold',
+    NunitoSansSemiBold: 'NunitoSans-SemiBold',
+    NunitoSansRegular: 'NunitoSans-Regular',
+    NunitoSansLight: 'NunitoSans-Light',
+    NunitoSansMedium: 'NunitoSans-Medium',
+    NunitoSansItalic: 'NunitoSans-Italic',
 }

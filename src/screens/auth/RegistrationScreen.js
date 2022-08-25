@@ -22,10 +22,10 @@ const datePickerOption = {
     mainColor: '#FFF',
     textSecondaryColor: themeStyle.YELLOW_COLOR,
     borderColor: '#AAA',
-    defaultFont: fontStyle.MulishSemiBold,
+    defaultFont: fontStyle.NunitoSansSemiBold,
     daysAnimationDistance: 10,
     textFontSize: 18,
-    headerFont: fontStyle.MulishRegular,
+    headerFont: fontStyle.NunitoSansRegular,
     textHeaderFontSize: 26,
 }
 

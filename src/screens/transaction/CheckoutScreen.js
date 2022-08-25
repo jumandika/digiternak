@@ -396,7 +396,7 @@ const CheckoutScreen = ({ navigation }) => {
             <Button
                 onPress={doSubmitTransaction}
                 style={{ height: 40, borderRadius: 4, margin: 10, marginBottom: 10 }}
-                fontStyle={{ fontSize: 16, fontFamily: fontStyle.MulishBold }}
+                fontStyle={{ fontSize: 16, fontFamily: fontStyle.NunitoSansBold }}
                 label={'Bayar - Rp' + cartTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
             >
                 {isLoadingTrx && <Spinner />}

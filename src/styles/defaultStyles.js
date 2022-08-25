@@ -7,32 +7,32 @@ const defaultStyles = StyleSheet.create({
         flex: 1
     },
     baseText: {
-        fontFamily: fontStyle.MulishRegular,
+        fontFamily: fontStyle.NunitoSansRegular,
         fontSize: 16,
         color: themeStyle.BLACK
     },
     linkText: {
-        fontFamily: fontStyle.MulishRegular,
+        fontFamily: fontStyle.NunitoSansRegular,
         fontSize: 16,
         color: themeStyle.PRIMARY_COLOR
     },
     baseTextMedium: {
-        fontFamily: fontStyle.MulishMedium,
+        fontFamily: fontStyle.NunitoSansMedium,
         fontSize: 16,
         color: themeStyle.BLACK
     },
     baseTextLight: {
-        fontFamily: fontStyle.MulishLight,
+        fontFamily: fontStyle.NunitoSansLight,
         fontSize: 16,
         color: themeStyle.BLACK
     },
     baseTextBold: {
-        fontFamily: fontStyle.MulishBold,
+        fontFamily: fontStyle.NunitoSansBold,
         fontSize: 16,
         color: themeStyle.BLACK
     },
     baseTextExtraBold: {
-        fontFamily: fontStyle.MulishExtraBold,
+        fontFamily: fontStyle.NunitoSansExtraBold,
         fontSize: 16,
         color: themeStyle.BLACK
     },

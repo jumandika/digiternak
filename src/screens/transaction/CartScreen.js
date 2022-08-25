@@ -137,7 +137,7 @@ const CartScreen = ({ navigation }) => {
                 <Button
                     onPress={gotoCheckout}
                     style={{ height: 40, borderRadius: 4, margin: 10, }}
-                    fontStyle={{ fontSize: 16, fontFamily: fontStyle.MulishBold }}
+                    fontStyle={{ fontSize: 16, fontFamily: fontStyle.NunitoSansBold }}
                     label={'Checkout - Rp' + cartTotal.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
 
                 />

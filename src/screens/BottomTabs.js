@@ -23,7 +23,7 @@ const BottomTabs = () => {
             screenOptions={{
                 tabBarActiveTintColor: themeStyle.PRIMARY_COLOR,
                 tabBarInactiveTintColor: themeStyle.GREY,
-                tabBarLabelStyle: { fontFamily: fontStyle.MulishMedium, fontSize: 14, }
+                tabBarLabelStyle: { fontFamily: fontStyle.NunitoSansMedium, fontSize: 14, }
             }}
         >
             <Tab.Screen
