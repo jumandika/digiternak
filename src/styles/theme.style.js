@@ -1,0 +1,13 @@
+
+export default {
+    // PRIMARY_COLOR: '#2A8D52',
+    PRIMARY_COLOR: '#31B057',
+    // SECONDARY_COLOR: '#40E571',
+    SECONDARY_COLOR: '#43E540',
+    DARK_GREEN: '#154D26',
+    HIGHLIGHT: 'rgba(49, 176, 87,0.1)',
+    YELLOW_COLOR: '#F9BD48',
+    RED_COLOR: '#B20600',
+    BLACK: '#222222',
+    GREY: '#413F42',
+};
