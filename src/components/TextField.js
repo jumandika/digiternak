@@ -1,5 +1,5 @@
 import React, { useState, useRef, createRef } from 'react';
-import { StyleSheet, View, Text, TextInput, } from 'react-native'
+import { StyleSheet, View, Text, TextInput, Image } from 'react-native'
 import { defaultStyles } from '../styles/defaultStyles';
 import themeStyle from '../styles/theme.style';
 
@@ -12,6 +12,7 @@ const TextField = ({
     keyboardType,
     textContentType,
     maxLength,
+    icon = false,
     textType = 'none',
     textStyle,
     inputRef,
@@ -56,9 +57,18 @@ const TextField = ({
                 {textType == 'phoneNumber' &&
                     <Text style={[defaultStyles.baseText, { fontSize: 18, paddingLeft: 10 }]}>+62</Text>
                 }
+                {icon &&
+                    <View style={{paddingLeft:10 }}>
+                        <Image
+                            source={require('../../assets/email.png')}
+                            resizeMode='contain'
+                            style={{ height: 18, width: 18 }}
+                        />
+                    </View>
+                }
                 <TextInput
                     ref={inputRef}
-                    style={[defaultStyles.baseText, {  ...textStyle }]}
+                    style={[defaultStyles.baseText, { ...textStyle }]}
                     onChangeText={onChangeText}
                     value={value}
                     placeholder={placeholder}
@@ -97,7 +107,7 @@ const styles = StyleSheet.create({
     containerStyle: {
         marginTop: 20,
         borderRadius: 2,
-        borderWidth: 1.2,
-        padding:5
+        borderWidth: 1.6,
+        padding: 5
     },
 })

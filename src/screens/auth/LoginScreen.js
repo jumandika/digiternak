@@ -41,7 +41,7 @@ const LoginScreen = (props) => {
     return (
         <Screen
             type={'fixed'}
-            style={{ padding: 20,  }}
+            style={{ padding: 20, }}
         >
             <StatusBar backgroundColor='rgba(0,0,0,0.5)' barStyle="light-content" translucent={true} />
 
@@ -53,9 +53,10 @@ const LoginScreen = (props) => {
                         onChangeText={(val) => setPhoneNumber(val)}
                         value={phoneNumber}
                         label={'Nomor Handphone'}
-                        placeholder={'Nomor Handphone'}
+                        placeholder={'E-mail...'}
                         keyboardType='numeric'
-                        textType='phoneNumber'
+                        textType='text'
+                        icon={true}
                         maxLength={13}
                         textStyle={{
                             flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10, paddingVertical: 8,

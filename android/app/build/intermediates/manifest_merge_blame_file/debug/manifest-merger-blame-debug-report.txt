@@ -62,8 +62,8 @@
 34-->[androidx.core:core:1.7.0] /Users/jumandika/.gradle/caches/transforms-3/561e7db7a45b7638e302517affbeab57/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 35        android:debuggable="true"
 36        android:extractNativeLibs="false"
-37        android:icon="@mipmap/logo_hijau"
-37-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-40
+37        android:icon="@mipmap/app_logo"
+37-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-38
 38        android:label="@string/app_name"
 38-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:10:7-39
 39        android:roundIcon="@mipmap/ic_launcher_round"

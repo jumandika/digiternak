@@ -1,6 +1,5 @@
 import React from 'react';
-import { ScrollView, View, StyleSheet, Text, TouchableOpacity, TouchableNativeFeedback } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import { Text, TouchableNativeFeedback, View } from 'react-native';
 import { defaultStyles } from '../styles/defaultStyles';
 import themeStyle from '../styles/theme.style';
 
@@ -55,4 +54,4 @@ const Button = ({
     )
 }
 
-export { Button } 
+export { Button };

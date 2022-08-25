@@ -174,8 +174,8 @@ MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/jumandika/.g
 	tools:targetApi
 		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:9:9-29
 	android:icon
-		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-40
-		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-40
+		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-38
 	android:allowBackup
 		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:13:7-34
 		ADDED from /Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:13:7-34

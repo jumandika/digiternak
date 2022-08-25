@@ -1,5 +1,9 @@
 [
     {
+        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_app_logo.png.flat",
+        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/app_logo.png"
+    },
+    {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_logo_hijau.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/logo_hijau.png"
     },
@@ -16,20 +20,24 @@
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_celery.png"
     },
     {
-        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_splash_02.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable/splash_02.png"
     },
     {
-        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
-        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_app_logo.png.flat",
+        "source": "com.digiternak.app-main-37:/mipmap-hdpi/app_logo.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo.png.flat",
@@ -60,10 +68,6 @@
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_bootsplash_logo.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/bootsplash_logo.png"
-    },
-    {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/ic_launcher.png"
     },
@@ -92,16 +96,16 @@
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_swiper3.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_bootsplash_logo.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/bootsplash_logo.png"
-    },
-    {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_logo_hijau.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/logo_hijau.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_splash_02.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/splash_02.png"
+    },
+    {
+        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_app_logo.png.flat",
+        "source": "com.digiternak.app-main-37:/mipmap-mdpi/app_logo.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_nuts.png.flat",
@@ -124,6 +128,10 @@
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/logo_putih.png"
     },
     {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_app_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/app_logo.png"
+    },
+    {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-hdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
@@ -134,10 +142,6 @@
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xxxhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_bootsplash_logo.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/bootsplash_logo.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_logo_hijau.png.flat",
@@ -154,6 +158,14 @@
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_eggs.png.flat",
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_eggs.png"
+    },
+    {
+        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_app_logo.png.flat",
+        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/app_logo.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_app_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/app_logo.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_logo_putih.png.flat",
@@ -180,8 +192,8 @@
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_orange.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_bootsplash_logo.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/bootsplash_logo.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_app_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/app_logo.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_bootsplash_logo.png.flat",
@@ -244,8 +256,12 @@
         "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/logo_putih.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_bootsplash_logo.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/bootsplash_logo.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_app_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/app_logo.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_app_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/app_logo.png"
     },
     {
         "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_splash_01.png.flat",
