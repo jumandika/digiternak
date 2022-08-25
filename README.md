@@ -1,4 +1,4 @@
-# halalgo
+# DIGITERNAK
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/mkiroomin/halalgo.git
+git remote add origin https://gitlab.com/jumandika/digiternak.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/mkiroomin/halalgo/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/jumandika/digiternak/-/settings/integrations)
 
 ## Collaborate with your team
 
