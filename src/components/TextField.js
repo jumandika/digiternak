@@ -24,7 +24,7 @@ const TextField = ({
     blurOnSubmit = true,
 }) => {
     const [focus, setFocus] = useState(false)
-    const [borderColor, setBorderColor] = useState(themeStyle.BLACK)
+    const [borderColor, setBorderColor] = useState('#DDDDDD')
     const [borderWidth, setBorderWidth] = useState(1.8)
 
     if (focus) placeholder = '';
@@ -37,7 +37,7 @@ const TextField = ({
 
     const onBlur = () => {
         setFocus(false)
-        setBorderColor(themeStyle.BLACK)
+        setBorderColor('#DDDDDD')
         // setBorderWidth(1.8)
     }
 
@@ -58,11 +58,11 @@ const TextField = ({
                 }
                 <TextInput
                     ref={inputRef}
-                    style={[defaultStyles.baseText, { ...textStyle }]}
+                    style={[defaultStyles.baseText, {  ...textStyle }]}
                     onChangeText={onChangeText}
                     value={value}
                     placeholder={placeholder}
-                    placeholderTextColor={themeStyle.BLACK}
+                    placeholderTextColor={'#A6AAB4'}
                     keyboardType={keyboardType}
                     textContentType={''}
                     returnKeyType={returnKeyType}
@@ -96,7 +96,8 @@ function FloatingLabel(label) {
 const styles = StyleSheet.create({
     containerStyle: {
         marginTop: 20,
-        borderRadius: 6,
-        borderWidth: 1.8,
+        borderRadius: 2,
+        borderWidth: 1.2,
+        padding:5
     },
 })

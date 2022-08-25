@@ -82,7 +82,7 @@ const LoginScreen = (props) => {
                 <View style={{ paddingTop: 40 }} >
                     <Button
                         onPress={submitLogin}
-                        label="Masuk" >
+                        label="Login" >
                         {isLoading && <Spinner />}
                     </Button>
                 </View>

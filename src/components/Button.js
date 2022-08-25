@@ -31,38 +31,26 @@ const Button = ({
                 </View>
             </TouchableNativeFeedback>
             :
-            <LinearGradient
-                start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} colors={[
-                    themeStyle.SECONDARY_COLOR,
-                    themeStyle.PRIMARY_COLOR,
-                ]}
-                style={[defaultStyles.buttonContainer, { ...style }]}
+            <TouchableNativeFeedback
+                background={TouchableNativeFeedback.Ripple('rgba(0,0,0,0.05)')}
+                onPress={onPress}
             >
-                <TouchableNativeFeedback
-                    background={TouchableNativeFeedback.Ripple('rgba(0,0,0,0.05)')}
-                    onPress={onPress}
+                <View
+                    style={[defaultStyles.buttonContainer, {
+                        backgroundColor: disabled ? '#E9E9E9' : themeStyle.PRIMARY_COLOR,
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        ...style
+                    }]}
                 >
-                    <View
-                        style={{
-                            height: '100%',
-                            width: '100%',
-                            justifyContent: 'center',
-                            alignItems: 'center',
-                            backgroundColor: disabled ? '#E9E9E9' : null,
-                            ...style
-                        }}
-                    >
+                    {children ?
+                        children
+                        :
+                        <Text style={[defaultStyles.baseTextBold, { fontSize: 22, color: "#FFF", ...fontStyle }]}>{label}</Text>
+                    }
+                </View>
+            </TouchableNativeFeedback>
 
-
-                        {children ?
-                            children
-                            :
-                            <Text style={[defaultStyles.baseTextBold, { fontSize: 22, color: "#FFF", ...fontStyle }]}>{label}</Text>
-                        }
-                    </View>
-                </TouchableNativeFeedback>
-
-            </LinearGradient>
 
     )
 }

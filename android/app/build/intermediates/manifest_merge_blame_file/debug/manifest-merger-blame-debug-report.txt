@@ -9,17 +9,17 @@
 9        android:targetSdkVersion="31" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:5:5-81
-13-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:5:22-78
+13-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:5:22-78
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:6:5-79
-14-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:6:22-76
+14-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:6:22-76
 15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 15-->[com.facebook.flipper:flipper:0.125.0] /Users/jumandika/.gradle/caches/transforms-3/f50d7ae8c5a77fca7ba046d2ffd9e52f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
 15-->[com.facebook.flipper:flipper:0.125.0] /Users/jumandika/.gradle/caches/transforms-3/f50d7ae8c5a77fca7ba046d2ffd9e52f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
@@ -53,81 +53,81 @@
 29    </queries>
 30
 31    <application
-31-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:8:5-28:19
+31-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:8:5-28:19
 32        android:name="com.digiternak.MainApplication"
-32-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:9:7-38
+32-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:9:7-38
 33        android:allowBackup="false"
-33-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:13:7-34
+33-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:13:7-34
 34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 34-->[androidx.core:core:1.7.0] /Users/jumandika/.gradle/caches/transforms-3/561e7db7a45b7638e302517affbeab57/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 35        android:debuggable="true"
 36        android:extractNativeLibs="false"
 37        android:icon="@mipmap/logo_hijau"
-37-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:11:7-40
+37-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:11:7-40
 38        android:label="@string/app_name"
-38-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:10:7-39
+38-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:10:7-39
 39        android:roundIcon="@mipmap/ic_launcher_round"
-39-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:12:7-52
+39-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:12:7-52
 40        android:theme="@style/BootTheme"
-40-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:14:7-39
+40-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:14:7-39
 41        android:usesCleartextTraffic="true" >
-41-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/debug/AndroidManifest.xml:8:9-44
+41-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
 42        <activity
-42-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/debug/AndroidManifest.xml:11:9-111
+42-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:11:9-111
 43            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-43-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/debug/AndroidManifest.xml:11:19-83
+43-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
 44            android:exported="false" />
-44-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/debug/AndroidManifest.xml:11:84-108
+44-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/debug/AndroidManifest.xml:11:84-108
 45        <!-- android:theme="@style/AppTheme" -->
 46        <meta-data
-46-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:15:7-126
+46-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:15:7-126
 47            android:name="com.google.android.maps.v2.API_KEY"
-47-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:15:18-67
+47-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:15:18-67
 48            android:value="AIzaSyAbqR17b0QAB8KNtGLjAyyYNkdWGlP5s4U" />
-48-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:15:68-123
+48-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:15:68-123
 49
 50        <activity
-50-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:16:7-27:18
+50-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:16:7-27:18
 51            android:name="com.digiternak.MainActivity"
-51-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:17:9-37
+51-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:17:9-37
 52            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-52-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:19:9-118
+52-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:19:9-118
 53            android:exported="true"
-53-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:22:9-32
+53-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:22:9-32
 54            android:label="@string/app_name"
-54-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:18:9-41
+54-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:18:9-41
 55            android:launchMode="singleTask"
-55-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:20:9-40
+55-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:20:9-40
 56            android:windowSoftInputMode="adjustResize" >
-56-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:21:9-51
+56-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:21:9-51
 57            <intent-filter>
-57-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:23:9-26:25
+57-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:23:9-26:25
 58                <action android:name="android.intent.action.MAIN" />
-58-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:24:13-65
-58-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:24:21-62
+58-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:24:13-65
+58-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:24:21-62
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:25:13-73
-60-->/Users/jumandika/Documents/PROJECT/digiternak/android/app/src/main/AndroidManifest.xml:25:23-70
+60-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:25:13-73
+60-->/Users/jumandika/Documents/PROJECT/digiternak_mobile/android/app/src/main/AndroidManifest.xml:25:23-70
 61            </intent-filter>
 62        </activity>
 63
 64        <provider
-64-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+64-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 65            android:name="com.imagepicker.ImagePickerProvider"
-65-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+65-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
 66            android:authorities="com.digiternak.imagepickerprovider"
-66-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+66-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
 67            android:exported="false"
-67-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+67-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 68            android:grantUriPermissions="true" >
-68-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+68-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 69            <meta-data
-69-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+69-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
 70                android:name="android.support.FILE_PROVIDER_PATHS"
-70-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+70-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
 71                android:resource="@xml/imagepicker_provider_paths" />
-71-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+71-->[:react-native-image-picker] /Users/jumandika/Documents/PROJECT/digiternak_mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
 72        </provider>
 73        <provider
 73-->[androidx.work:work-runtime:2.7.1] /Users/jumandika/.gradle/caches/transforms-3/c4c4c9ad3e5164d7e0ca6077a9f74ea5/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20

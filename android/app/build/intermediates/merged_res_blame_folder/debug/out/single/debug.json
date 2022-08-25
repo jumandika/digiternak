@@ -1,266 +1,286 @@
 [
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-xxxhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_logo_hijau.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/logo_hijau.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper3.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_swiper3.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_bootsplash_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_logo_hijau.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/logo_hijau.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_celery.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_celery.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-hdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_logo_hijau.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/logo_hijau.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_splash_02.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable/splash_02.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_logo_hijau.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/logo_hijau.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_splash_02.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/splash_02.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_logo.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_logo_hijau.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/logo_hijau.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_splash_02.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/splash_02.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_splash_01.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/splash_01.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
         "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_bootsplash_logo.png.flat",
         "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_splash_01.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/splash_01.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/logo_putih.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/logo_putih.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper1.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_swiper1.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper3.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_swiper3.png"
     },
     {
         "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_bootsplash_logo.png.flat",
         "source": "com.digiternak.app-main-37:/mipmap-hdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_splash_02.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/splash_02.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_logo_hijau.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/logo_hijau.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_splash_02.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/splash_02.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper4.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_swiper4.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_nuts.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_nuts.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_bootsplash_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable_splash_02.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable/splash_02.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable/logo_putih.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo_pth.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_logo_pth.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_splash_02.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/splash_02.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/logo_putih.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable_logo_hijau.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable/logo_hijau.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-hdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo_pth.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_logo_pth.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_logo_hijau.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/logo_hijau.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_orange.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_orange.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xxxhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xxxhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
         "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_bootsplash_logo.png.flat",
         "source": "com.digiternak.app-main-37:/mipmap-mdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_logo_hijau.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable/logo_hijau.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_splash_01.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/splash_01.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable_rn_edit_text_material.xml.flat",
-        "source": "com.digiternak.app-main-37:/drawable/rn_edit_text_material.xml"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xxhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-xxhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_eggs.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_eggs.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_splash_01.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/splash_01.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/logo_putih.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo_kokarga.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_logo_kokarga.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_splash_02.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/splash_02.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_logo_hijau.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/logo_hijau.png"
+    },
+    {
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_orange.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_orange.png"
     },
     {
         "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_bootsplash_logo.png.flat",
         "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable/logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_bootsplash_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnativemoderndatepicker_src_assets_arrow.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnativemoderndatepicker_src_assets_arrow.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_logo_hijau.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/logo_hijau.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable_splash_01.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable/splash_01.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_splash_01.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/splash_01.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper4.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_swiper4.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_logo_putih.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/logo_putih.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_splash_02.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/splash_02.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_logo_putih.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper1.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_swiper1.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_all.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_all.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_logo_hijau.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/logo_hijau.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-hdpi_splash_01.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-hdpi/splash_01.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnativemoderndatepicker_src_assets_arrow.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnativemoderndatepicker_src_assets_arrow.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable_splash_01.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable/splash_01.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_celery.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_celery.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_logo_putih.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/logo_putih.png"
     },
     {
         "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_bootsplash_logo.png.flat",
         "source": "com.digiternak.app-main-37:/mipmap-xhdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_splash_02.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxxhdpi/splash_02.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_splash_01.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/splash_01.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_logo.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_splash_02.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/splash_02.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-mdpi_splash_01.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-mdpi/splash_01.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper2.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_swiper2.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_eggs.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_eggs.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xxhdpi_bootsplash_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xxhdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_all.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_all.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-xhdpi_node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-xhdpi/node_modules_reactnavigation_bottomtabs_node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/mipmap-xhdpi_bootsplash_logo.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/mipmap-xhdpi/bootsplash_logo.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_splash_02.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/splash_02.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-mdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_logo_kokarga.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_logo_kokarga.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-xhdpi_splash_01.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-xhdpi/splash_01.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/drawable-mdpi_assets_nuts.png.flat",
-        "source": "com.digiternak.app-main-37:/drawable-mdpi/assets_nuts.png"
-    },
-    {
-        "merged": "com.digiternak.app-merged_res-35:/mipmap-hdpi_splash_01.png.flat",
-        "source": "com.digiternak.app-main-37:/mipmap-hdpi/splash_01.png"
+        "merged": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-merged_res-35:/drawable-mdpi_assets_swiper2.png.flat",
+        "source": "/Users/jumandika/.gradle/daemon/7.3.3/com.digiternak.app-main-37:/drawable-mdpi/assets_swiper2.png"
     }
 ]

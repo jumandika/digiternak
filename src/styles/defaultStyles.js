@@ -38,9 +38,9 @@ const defaultStyles = StyleSheet.create({
     },
     buttonContainer: {
         overflow: 'hidden',
-        height: 50,
+        height: 60,
         backgroundColor: themeStyle.PRIMARY_COLOR,
-        borderRadius: 8,
+        borderRadius: 2,
         justifyContent: 'center',
         alignItems: 'center',
     }
