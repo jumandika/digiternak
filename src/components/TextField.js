@@ -13,7 +13,6 @@ const TextField = ({
     textContentType,
     secureTextEntry = false,
     maxLength,
-    icon = false,
     iconSource = null,
     textType = 'none',
     textStyle,
@@ -61,7 +60,7 @@ const TextField = ({
                 {textType == 'phoneNumber' &&
                     <Text style={[defaultStyles.baseTextMedium, { fontSize: 18, paddingLeft: 10 }]}>+62</Text>
                 }
-                {icon &&
+                {iconSource &&
                     <View style={{ paddingLeft: 10 }}>
                         <Image
                             source={iconSource}

@@ -36,8 +36,7 @@ const RegistrationScreen = (props) => {
     const [phoneNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');
     const [nip, setNip] = useState('');
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
+    const [name, setName] = useState('');
     const [dob, setDob] = useState('');
     const [modalDob, setModalDob] = useState('');
     const [base64, setBase64] = useState('');
@@ -97,20 +96,20 @@ const RegistrationScreen = (props) => {
     const submitRegistration = async () => {
         setIsLoading(true);
 
-        if (!phoneNumber || !email || !firstName || !lastName || !dob) {
-            console.log(!phoneNumber, !email, !firstName, !lastName, !dob)
+        if (!phoneNumber || !email || !name || !dob) {
+            console.log(!phoneNumber, !email, !name, !dob)
             setIsLoading(false);
             return
         };
 
-        let body = {
-            "phone": phoneNumber.replace(/^0+/, ''),
-            "email": email,
-            "fname": firstName,
-            "lname": lastName,
-            "date": helpers.dateToYYYYMMdd(dob),
-            "referal": null
-        }
+        // let body = {
+        //     "phone": phoneNumber.replace(/^0+/, ''),
+        //     "email": email,
+        //     "fname": firstName,
+        //     "lname": lastName,
+        //     "date": helpers.dateToYYYYMMdd(dob),
+        //     "referal": null
+        // }
         let bodyLogin = {
             "phone": phoneNumber.replace(/^0+/, ''),
         }
@@ -141,8 +140,7 @@ const RegistrationScreen = (props) => {
             !selectedCompany1.id ||
             !selectedCompany2.id ||
             !selectedCompany3.id ||
-            !firstName ||
-            !lastName ||
+           !name||
             !email ||
             !phoneNumber ||
             !dob ||
@@ -157,8 +155,8 @@ const RegistrationScreen = (props) => {
             "companys1_id": selectedCompany1.id.toString(),
             "companys2_id": selectedCompany2.id.toString(),
             "companys3_id": selectedCompany3.id.toString(),
-            "fname": firstName,
-            "lname": lastName,
+            // "fname": firstName,
+            // "lname": lastName,
             "phone": phoneNumber.replace(/^0+/, ''),
             "email": email,
             "date": helpers.dateToYYYYMMdd(dob),
@@ -341,38 +339,23 @@ const RegistrationScreen = (props) => {
                         </View>
                     }
 
-                    <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between' }}>
-                        <TextField
-                            inputRef={firstNameRef}
-                            onChangeText={(val) => setFirstName(val)}
-                            value={firstName}
-                            textContentType='namePrefix'
-                            label={'Nama Depan'}
-                            placeholder={'Nama Depan'}
-                            keyboardType='none'
-                            textType='text'
-                            returnKeyType={'next'}
-                            textStyle={styles.textStyle}
-                            style={{ flex: 1, marginRight: 15 }}
-                            onSubmitEditing={() => lastNameRef.current.focus()}
-                            blurOnSubmit={false}
-                        />
-                        <TextField
-                            inputRef={lastNameRef}
-                            onChangeText={(val) => setLastName(val)}
-                            textContentType='nameSuffix'
-                            value={lastName}
-                            label={'Nama Belakang'}
-                            placeholder={'Nama Belakang'}
-                            keyboardType='none'
-                            textType='text'
-                            returnKeyType={'next'}
-                            textStyle={styles.textStyle}
-                            style={{ flex: 1, }}
-                            onSubmitEditing={() => emailRef.current.focus()}
-                            blurOnSubmit={false}
-                        />
-                    </View>
+
+                    <TextField
+                        inputRef={lastNameRef}
+                        onChangeText={(val) => setName(val)}
+                        textContentType='text'
+                        value={name}
+                        label={'Nama Lengkap'}
+                        placeholder={'Nama Lengkap'}
+                        keyboardType='default'
+                        textType='text'
+                        returnKeyType={'next'}
+                        iconSource={require('../../../assets/name.png')}
+                        textStyle={styles.textStyle}
+                        style={{ flex: 1, }}
+                        onSubmitEditing={() => emailRef.current.focus()}
+                        blurOnSubmit={false}
+                    />
                     <TextField
                         inputRef={emailRef}
                         onChangeText={(val) => setEmail(val)}

@@ -58,11 +58,10 @@ const LoginScreen = (props) => {
                         placeholder={'E-mail...'}
                         keyboardType='numeric'
                         textType='text'
-                        icon={true}
                         iconSource={require('../../../assets/email.png')}
                         maxLength={13}
                         textStyle={{
-                            flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10, paddingVertical: 8,
+                            flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10,
                         }}
                     />
                     <TextField
@@ -73,11 +72,10 @@ const LoginScreen = (props) => {
                         keyboardType='default'
                         textType='text'
                         textContentType={'password'}
-                        icon={true}
                         iconSource={require('../../../assets/password.png')}
                         maxLength={13}
                         textStyle={{
-                            flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10, paddingVertical: 8,
+                            flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10,
                         }}
                         secureTextEntry={secureTextEntry}
                         onPressEye={() => setSecureTextEntry(!secureTextEntry)}
