@@ -17,7 +17,7 @@ const defaultStyles = StyleSheet.create({
         color: themeStyle.PRIMARY_COLOR
     },
     baseTextMedium: {
-        fontFamily: fontStyle.NunitoSansMedium,
+        fontFamily: fontStyle.NunitoSansBlack,
         fontSize: 16,
         color: themeStyle.BLACK
     },
@@ -38,7 +38,7 @@ const defaultStyles = StyleSheet.create({
     },
     buttonContainer: {
         overflow: 'hidden',
-        height: 60,
+        height: 65,
         backgroundColor: themeStyle.PRIMARY_COLOR,
         borderRadius: 2,
         justifyContent: 'center',

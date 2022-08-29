@@ -1,4 +1,4 @@
 
-const URL = "https://yudistira-api.halalgo.id/service/v1/"
+const URL = "https://yudistira-api.digiternak.id/service/v1/"
 
 export { URL }

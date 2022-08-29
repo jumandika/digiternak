@@ -121,8 +121,10 @@ const styles = StyleSheet.create({
     containerStyle: {
         backgroundColor: '#FFF',
         marginTop: 10,
+        height:60,
+        justifyContent: 'center',
         borderRadius: 2,
-        borderWidth: 1.6,
+        borderWidth: 1,
         padding: 5
     },
     eyeStyle: {
