@@ -1,5 +1,5 @@
 import React, { useState, useRef, createRef } from 'react';
-import { StyleSheet, View, Text, TextInput, Image } from 'react-native'
+import { StyleSheet, View, Text, TextInput, Image, TouchableOpacity } from 'react-native'
 import { defaultStyles } from '../styles/defaultStyles';
 import themeStyle from '../styles/theme.style';
 
@@ -11,8 +11,10 @@ const TextField = ({
     placeholder,
     keyboardType,
     textContentType,
+    secureTextEntry = false,
     maxLength,
     icon = false,
+    iconSource = null,
     textType = 'none',
     textStyle,
     inputRef,
@@ -23,6 +25,8 @@ const TextField = ({
     isValid = true,
     message,
     blurOnSubmit = true,
+    onPressEye,
+
 }) => {
     const [focus, setFocus] = useState(false)
     const [borderColor, setBorderColor] = useState('#DDDDDD')
@@ -44,7 +48,7 @@ const TextField = ({
 
     return (
         <View style={[styles.containerStyle, { borderColor: borderColor, ...style }]}>
-            {
+            {/* {
                 (focus && label) ||
                     value &&
                     textType != 'otp'
@@ -52,15 +56,15 @@ const TextField = ({
                     FloatingLabel(label)
                     :
                     null
-            }
+            } */}
             <View style={{ flexDirection: 'row', alignItems: 'center', }}>
                 {textType == 'phoneNumber' &&
-                    <Text style={[defaultStyles.baseText, { fontSize: 18, paddingLeft: 10 }]}>+62</Text>
+                    <Text style={[defaultStyles.baseTextMedium, { fontSize: 18, paddingLeft: 10 }]}>+62</Text>
                 }
                 {icon &&
-                    <View style={{paddingLeft:10 }}>
+                    <View style={{ paddingLeft: 10 }}>
                         <Image
-                            source={require('../../assets/email.png')}
+                            source={iconSource}
                             resizeMode='contain'
                             style={{ height: 18, width: 18 }}
                         />
@@ -68,13 +72,13 @@ const TextField = ({
                 }
                 <TextInput
                     ref={inputRef}
-                    style={[defaultStyles.baseText, { ...textStyle }]}
+                    style={[defaultStyles.baseTextBold, { ...textStyle }]}
                     onChangeText={onChangeText}
                     value={value}
                     placeholder={placeholder}
                     placeholderTextColor={themeStyle.GREY}
                     keyboardType={keyboardType}
-                    textContentType={''}
+                    textContentType={textContentType}
                     returnKeyType={returnKeyType}
                     onFocus={onFocus}
                     onBlur={onBlur}
@@ -82,8 +86,18 @@ const TextField = ({
                     editable={editable}
                     onSubmitEditing={onSubmitEditing}
                     blurOnSubmit={blurOnSubmit}
+                    secureTextEntry={secureTextEntry}
 
                 />
+                {textContentType == 'password' &&
+                    <TouchableOpacity onPress={onPressEye} style={styles.eyeStyle}>
+                        <Image
+                            source={secureTextEntry ? require('../../assets/view-password.png') : require('../../assets/hide-password.png')}
+                            resizeMode='contain'
+                            style={{ height: 18, width: 18 }}
+                        />
+                    </TouchableOpacity>
+                }
             </View>
             {!isValid &&
                 <Text style={[defaultStyles.baseText, { position: 'absolute', bottom: -15, left: 0, fontSize: 12, color: 'red' }]}>{message}</Text>
@@ -105,9 +119,18 @@ function FloatingLabel(label) {
 
 const styles = StyleSheet.create({
     containerStyle: {
-        marginTop: 20,
+        backgroundColor: '#FFF',
+        marginTop: 10,
         borderRadius: 2,
         borderWidth: 1.6,
         padding: 5
     },
+    eyeStyle: {
+        position: 'absolute',
+        right: 0,
+        height: '100%',
+        paddingHorizontal: 10,
+        justifyContent: 'center',
+        alignSelf: 'center'
+    }
 })

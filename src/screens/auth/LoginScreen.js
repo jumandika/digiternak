@@ -15,6 +15,8 @@ const LoginScreen = (props) => {
 
     const [isLoading, setIsLoading] = useState(false);
     const [phoneNumber, setPhoneNumber] = useState('');
+    const [password, setPassword] = useState('');
+    const [secureTextEntry, setSecureTextEntry] = useState(true);
 
 
     useEffect(() => {
@@ -57,13 +59,31 @@ const LoginScreen = (props) => {
                         keyboardType='numeric'
                         textType='text'
                         icon={true}
+                        iconSource={require('../../../assets/email.png')}
                         maxLength={13}
                         textStyle={{
                             flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10, paddingVertical: 8,
                         }}
                     />
+                    <TextField
+                        onChangeText={(val) => setPassword(val)}
+                        value={password}
+                        label={'Password'}
+                        placeholder={'Password...'}
+                        keyboardType='default'
+                        textType='text'
+                        textContentType={'password'}
+                        icon={true}
+                        iconSource={require('../../../assets/password.png')}
+                        maxLength={13}
+                        textStyle={{
+                            flex: 1, fontSize: 18, padding: 0, paddingHorizontal: 10, paddingVertical: 8,
+                        }}
+                        secureTextEntry={secureTextEntry}
+                        onPressEye={() => setSecureTextEntry(!secureTextEntry)}
+                    />
                 </View>
-                <View style={{ paddingTop: 40 }} >
+                <View style={{ paddingTop: 10 }} >
                     <Button
                         onPress={submitLogin}
                         label="Login" >
