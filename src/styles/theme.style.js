@@ -10,4 +10,5 @@ export default {
   BLACK: "#636E7C",
   GREY: "#A6AAB4",
   while: " #FFFFFF",
+  Darkgrey: "#757F8C",
 };

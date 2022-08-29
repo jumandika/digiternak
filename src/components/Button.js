@@ -1,21 +1,29 @@
 import React from "react";
-import { Text, StyleSheet, TouchableNativeFeedback, View, Image } from "react-native";
+import { Text, Platform, StyleSheet, TouchableNativeFeedback, TouchableOpacity, View, Image } from "react-native";
 import { defaultStyles } from "../styles/defaultStyles";
 import themeStyle from "../styles/theme.style";
+
+const Touchable = ({ children, onPress }) => {
+  if (Platform.OS == "ios") {
+    return <TouchableOpacity onPress={onPress}>{children}</TouchableOpacity>;
+  } else {
+    <TouchableNativeFeedback onPress={onPress}>{children}</TouchableNativeFeedback>;
+  }
+};
 
 const Button = ({ type, children, onPress, label, style, fontStyle, disabled }) => {
   if (type == "secondary") {
     return (
-      <TouchableNativeFeedback background={TouchableNativeFeedback.Ripple("rgba(0,0,0,0.05)")} onPress={onPress}>
+      <Touchable onPress={onPress}>
         <View style={[defaultStyles.buttonContainer, { borderWidth: 1.6, borderColor: themeStyle.PRIMARY_COLOR, backgroundColor: "#FFF", ...style }]}>
           {children ? children : <Text style={[defaultStyles.baseTextBold, { fontSize: 22, color: themeStyle.PRIMARY_COLOR, ...fontStyle }]}>{label}</Text>}
         </View>
-      </TouchableNativeFeedback>
+      </Touchable>
     );
   }
   if (type == "google") {
     return (
-      <TouchableNativeFeedback background={TouchableNativeFeedback.Ripple("rgba(0,0,0,0.05)")} onPress={onPress}>
+      <Touchable onPress={onPress}>
         <View style={[defaultStyles.buttonContainer, { backgroundColor: "#FFF", ...style }]}>
           {children ? (
             children
@@ -26,12 +34,12 @@ const Button = ({ type, children, onPress, label, style, fontStyle, disabled }) 
             </View>
           )}
         </View>
-      </TouchableNativeFeedback>
+      </Touchable>
     );
   }
 
   return (
-    <TouchableNativeFeedback background={TouchableNativeFeedback.Ripple("rgba(0,0,0,0.05)")} onPress={onPress}>
+    <Touchable onPress={onPress}>
       <View
         style={[
           defaultStyles.buttonContainer,
@@ -45,7 +53,7 @@ const Button = ({ type, children, onPress, label, style, fontStyle, disabled }) 
       >
         {children ? children : <Text style={[defaultStyles.baseTextBold, { fontSize: 22, color: "#FFF", ...fontStyle }]}>{label}</Text>}
       </View>
-    </TouchableNativeFeedback>
+    </Touchable>
   );
 };
 

@@ -11,11 +11,9 @@ import { defaultStyles } from "../../styles/defaultStyles";
 import themeStyle from "../../styles/theme.style";
 import { Gap } from "../../components/Gap";
 
-const LoginScreen = (props) => {
+const LupaScreen = (props) => {
   const [isLoading, setIsLoading] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState("");
-  const [password, setPassword] = useState("");
-  const [secureTextEntry, setSecureTextEntry] = useState(true);
 
   useEffect(() => {
     RNBootSplash.hide();
@@ -43,8 +41,8 @@ const LoginScreen = (props) => {
       <StatusBar backgroundColor="rgba(0,0,0,0.5)" barStyle="light-content" translucent={true} />
 
       <View style={[defaultStyles.container, {}]}>
-        <Text style={[defaultStyles.baseTextExtraBold, { fontSize: 42, paddingTop: 94 }]}>Login</Text>
-        <Text style={[defaultStyles.baseText, {}]}>Masuk ke akun Anda</Text>
+        <Text style={[defaultStyles.baseTextExtraBold, { fontSize: 42, paddingTop: 94 }]}>Lupa Password</Text>
+        <Text style={[defaultStyles.baseText, {}]}>Masukkan e-mail untuk reset password</Text>
         <View style={{ paddingTop: 40 }}>
           <TextField
             onChangeText={(val) => setPhoneNumber(val)}
@@ -62,49 +60,24 @@ const LoginScreen = (props) => {
               paddingHorizontal: 10,
             }}
           />
-          <TextField
-            onChangeText={(val) => setPassword(val)}
-            value={password}
-            label={"Password"}
-            placeholder={"Password..."}
-            keyboardType="default"
-            textType="text"
-            textContentType={"password"}
-            iconSource={require("../../../assets/password.png")}
-            maxLength={13}
-            textStyle={{
-              flex: 1,
-              fontSize: 18,
-              padding: 0,
-              paddingHorizontal: 10,
-            }}
-            secureTextEntry={secureTextEntry}
-            onPressEye={() => setSecureTextEntry(!secureTextEntry)}
-          />
         </View>
         <View style={{ paddingTop: 10 }}>
-          <Button onPress={submitLogin} label="Login">
+          <Button onPress={() => props.navigation.push("LoginScreen")} label="Reset Password">
             {isLoading && <Spinner />}
           </Button>
           <Gap height={22} />
           <Text style={[defaultStyles.baseText, { alignSelf: "center" }]}>Atau</Text>
           <Gap height={22} />
-          <Button type={"google"} onPress={() => (prevScreen ? submitRegistrationStaff() : submitRegistration())} label="Masuk dengan Akun Google">
+          <Button type={"secondary"} onPress={() => props.navigation.push("RegistrationScreen")} label="Buat Akun Baru">
             {isLoading && <Spinner />}
           </Button>
         </View>
+
+        <View style={[{ flexDirection: "row", justifyContent: "center", paddingTop: 20 }]}></View>
       </View>
-      <View style={[{ flexDirection: "row" }]}>
-        <TouchableOpacity onPress={() => props.navigation.navigate("RegistrationScreen")}>
-          <Text style={[defaultStyles.baseText, { padding: 5 }]}>Belum punya Akun?</Text>
-        </TouchableOpacity>
-        <Gap width={70} />
-        <TouchableOpacity onPress={() => props.navigation.navigate("LupaScreen")}>
-          <Text style={[defaultStyles.baseText, { padding: 5, color: themeStyle.Darkgrey }]}>Lupa Password</Text>
-        </TouchableOpacity>
-      </View>
+      <View style={[{ flexDirection: "row", justifyContent: "center" }]}></View>
     </Screen>
   );
 };
 
-export { LoginScreen };
+export { LupaScreen };
