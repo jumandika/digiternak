@@ -98,6 +98,28 @@ const HomeScreen = ({ navigation }) => {
       path: require("../../../assets/kandang-mart.png"),
     },
   ]);
+  const [menuFAQ, setMenuFAQ] = useState([
+    {
+      id: 1,
+      name: "Pasar\nHewan",
+      path: require("../../../assets/pasar-hewan.png"),
+    },
+    {
+      id: 2,
+      name: "Qurban\nBerbagi",
+      path: require("../../../assets/qurban-berbagi.png"),
+    },
+    {
+      id: 3,
+      name: "Salam\nQurban",
+      path: require("../../../assets/salam-qurban.png"),
+    },
+    {
+      id: 4,
+      name: "Cicilan\nQurban",
+      path: require("../../../assets/cicilan-qurban.png"),
+    },
+  ]);
 
   const dispatch = useDispatch();
 
@@ -189,10 +211,11 @@ const HomeScreen = ({ navigation }) => {
             <Text style={[defaultStyles.baseTextExtra]}>Digiternak</Text>
           </View>
         </ImageBackground>
-        <MenuProduct navigation={navigation} menuProduct={menuProduct} />
+        <MenuProduct navigation={navigation} menuProduct={menuProduct} title="Produk" />
         <ProductCard navigation={navigation} dataProduct={dataProduct} title={"Peternak Pilihan"} description={"Para peternak berdedikasi tinggi"} isImageBackground />
 
         <ProductCard navigation={navigation} dataProduct={dataNews} title={"Kabar Peternak"} description={"Informasi terkini dari peternak"} />
+        <MenuProduct navigation={navigation} menuProduct={menuFAQ} numColumns={2} title="Mengapa Kandang Qurban?" />
         {/* {isLoading ? (
           <View style={{ flex: 1, height: screenHeight / 1.5, alignItems: "center", justifyContent: "center" }}>
             <Spinner color={themeStyle.PRIMARY_COLOR} size={40} />

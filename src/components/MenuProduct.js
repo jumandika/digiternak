@@ -7,7 +7,7 @@ const screenWidth = Math.round(Dimensions.get("window").width);
 const screenHeight = Math.round(Dimensions.get("window").height);
 const AnimatableView = Animatable.createAnimatableComponent(View);
 
-const MenuProduct = ({ navigation, menuProduct }) => {
+const MenuProduct = ({ navigation, menuProduct, numColumns = 3, title }) => {
   const openCategory = (item) => {
     navigation.navigate("ProductPerCatScreen", { item: item });
   };
@@ -16,7 +16,7 @@ const MenuProduct = ({ navigation, menuProduct }) => {
     console.log(item);
     return (
       <TouchableNativeFeedback background={TouchableNativeFeedback.Ripple("rgba(0,0,0,0.05)")} onPress={() => openCategory(item)} key={item.id}>
-        <AnimatableView animation={"fadeInRight"} useNativeDriver={true} direction="alternate" style={styles.card}>
+        <AnimatableView animation={"fadeInRight"} useNativeDriver={true} direction="alternate" style={styles.card(numColumns)}>
           <Image source={item.path} style={{ height: 55, width: 55, resizeMode: "contain" }} />
           <Text style={[defaultStyles.baseText, { color: themeStyle.GREY, textAlign: "center", paddingVertical: 8, paddingBottom: 15 }]}>{item.name}</Text>
         </AnimatableView>
@@ -27,11 +27,11 @@ const MenuProduct = ({ navigation, menuProduct }) => {
   return (
     <View style={{ flex: 1, paddingTop: 15 }}>
       <View style={{ flex: 1, paddingBottom: 10, paddingHorizontal: 25, flexDirection: "row", justifyContent: "space-between" }}>
-        <Text style={[defaultStyles.baseTextBold, { fontSize: 28 }]}>{"Produk"}</Text>
+        <Text style={[defaultStyles.baseTextBold, { fontSize: 28 }]}>{title}</Text>
       </View>
       <FlatList
         style={styles.container}
-        numColumns={3}
+        numColumns={numColumns}
         data={menuProduct}
         contentContainerStyle={{ minWidth: screenWidth, paddingLeft: 25, paddingBottom: 20 }}
         renderItem={renderItem}
@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
   },
-  card: {
-    width: screenWidth / 3 - 22.5,
+  card: (numColumns) => ({
+    width: screenWidth / numColumns - (numColumns == 2 ? 27.5 : 22.5),
     alignItems: "center",
     backgroundColor: "#FFF",
     borderWidth: 1,
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.05,
     shadowRadius: 10,
     // elevation:10
-  },
+  }),
   icon: {
     fontSize: 22,
   },
