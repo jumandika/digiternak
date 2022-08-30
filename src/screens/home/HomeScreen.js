@@ -20,64 +20,83 @@ const HomeScreen = ({ navigation }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [userData, setUserData] = useState({});
 
-  const [dataProduct, setDataProduct] = React.useState([
+  const [dataNews, setDataNews] = React.useState([
     {
       id: 1,
-      farmerName: 'Makmur Farm',
-      region: 'Surabaya',
-      rating: '4.8',
-      ratePrice: 'Rp 21 - 65 Juta',
-      path: require('../../../assets/goat1.png')
+      title: "Cara cermat bedakan daging sapi segar vs busuk",
+      date: "Jun, 15 2021",
+      path: require("../../../assets/daging1.png"),
     },
     {
       id: 2,
-      farmerName: 'Juragan Kambing',
-      region: 'Garut',
-      rating: '4.7',
-      ratePrice: 'Rp 3.5 - 7.5 Juta',
-      path: require('../../../assets/goat2.jpeg')
+      title: "Cara cairkan daging sapi beku dengan cepat",
+      date: "Jul, 01 2022",
+      path: require("../../../assets/daging2.png"),
     },
     {
       id: 3,
-      farmerName: 'Barokah Farm',
-      region: 'Malang',
-      rating: '4.5',
-      ratePrice: 'Rp 2.8 - 8.5 Juta',
-      path: require('../../../assets/goat.png')
+      title: "Cara Memilih daging sapi yang segar dan bergizi",
+      date: "Nov, 20 2021",
+      path: require("../../../assets/daging3.jpeg"),
+    },
+  ]);
+  const [dataProduct, setDataProduct] = React.useState([
+    {
+      id: 1,
+      farmerName: "Makmur Farm",
+      region: "Surabaya",
+      rating: "4.8",
+      ratePrice: "Rp 21 - 65 Juta",
+      path: require("../../../assets/goat1.png"),
+    },
+    {
+      id: 2,
+      farmerName: "Juragan Kambing",
+      region: "Garut",
+      rating: "4.7",
+      ratePrice: "Rp 3.5 - 7.5 Juta",
+      path: require("../../../assets/goat2.jpeg"),
+    },
+    {
+      id: 3,
+      farmerName: "Barokah Farm",
+      region: "Malang",
+      rating: "4.5",
+      ratePrice: "Rp 2.8 - 8.5 Juta",
+      path: require("../../../assets/goat.png"),
     },
   ]);
   const [menuProduct, setMenuProduct] = useState([
     {
       id: 1,
-      name: 'Pasar\nHewan',
-      path: require('../../../assets/pasar-hewan.png')
+      name: "Pasar\nHewan",
+      path: require("../../../assets/pasar-hewan.png"),
     },
     {
       id: 2,
-      name: 'Qurban\nBerbagi',
-      path: require('../../../assets/qurban-berbagi.png')
+      name: "Qurban\nBerbagi",
+      path: require("../../../assets/qurban-berbagi.png"),
     },
     {
       id: 3,
-      name: 'Salam\nQurban',
-      path: require('../../../assets/salam-qurban.png')
+      name: "Salam\nQurban",
+      path: require("../../../assets/salam-qurban.png"),
     },
     {
       id: 4,
-      name: 'Cicilan\nQurban',
-      path: require('../../../assets/cicilan-qurban.png')
+      name: "Cicilan\nQurban",
+      path: require("../../../assets/cicilan-qurban.png"),
     },
     {
       id: 5,
-      name: 'Kandang\nAqiqah',
-      path: require('../../../assets/kandang-aqiqah.png')
+      name: "Kandang\nAqiqah",
+      path: require("../../../assets/kandang-aqiqah.png"),
     },
     {
       id: 6,
-      name: 'Kandang\nMart',
-      path: require('../../../assets/kandang-mart.png')
+      name: "Kandang\nMart",
+      path: require("../../../assets/kandang-mart.png"),
     },
-
   ]);
 
   const dispatch = useDispatch();
@@ -159,8 +178,8 @@ const HomeScreen = ({ navigation }) => {
       {/* <HeaderNavbar /> */}
       <ScrollView contentContainerStyle={{ paddingBottom: 40 }} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
         <ImageBackground resizeMode="cover" source={require("../../../assets/bg_home.png")} style={{ height: 250, width: "100%" }}>
-          <View style={{ padding: 20, paddingTop: 45, flexDirection: "row", alignItems: 'center', justifyContent: "space-between" }}>
-            <Image source={require("../../../assets/Digiternak.png")} style={{ resizeMode: "contain", height: 35, width: 90, }} />
+          <View style={{ padding: 20, paddingTop: 45, flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
+            <Image source={require("../../../assets/Digiternak.png")} style={{ resizeMode: "contain", height: 35, width: 90 }} />
             <Image source={require("../../../assets/Notif.png")} style={{ height: 15, width: 15 }} />
           </View>
           <View style={[defaultStyles.baseTextExtra, { paddingTop: 24, marginLeft: 25 }]}>
@@ -171,7 +190,9 @@ const HomeScreen = ({ navigation }) => {
           </View>
         </ImageBackground>
         <MenuProduct navigation={navigation} menuProduct={menuProduct} />
-        <ProductCard navigation={navigation} dataProduct={dataProduct} title={'Peternak Pilihan'} description={'Para peternak berdedikasi tinggi'} />
+        <ProductCard navigation={navigation} dataProduct={dataProduct} title={"Peternak Pilihan"} description={"Para peternak berdedikasi tinggi"} isImageBackground />
+
+        <ProductCard navigation={navigation} dataProduct={dataNews} title={"Kabar Peternak"} description={"Informasi terkini dari peternak"} />
         {/* {isLoading ? (
           <View style={{ flex: 1, height: screenHeight / 1.5, alignItems: "center", justifyContent: "center" }}>
             <Spinner color={themeStyle.PRIMARY_COLOR} size={40} />
