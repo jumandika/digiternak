@@ -141,7 +141,7 @@ const MapScreen = (props) => {
 
     return (
         <SafeAreaView style={styles.container}>
-            <StatusBar backgroundColor={themeStyle.PRIMARY_COLOR} barStyle="light-content" translucent={true} />
+            <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" translucent={true} />
             <MapView
                 provider={PROVIDER_GOOGLE} // remove if not using Google Maps
                 style={styles.map}

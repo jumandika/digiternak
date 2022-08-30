@@ -248,7 +248,7 @@ const TransactionDetailScreen = ({ navigation, route }) => {
     return (
         <View style={styles.container} >
             <HeaderNavbar navigation={navigation} title={`Detail Transaksi`} />
-            {/* <StatusBar backgroundColor={themeStyle.PRIMARY_COLOR} barStyle="light-content" animated={true} translucent={true} /> */}
+            {/* <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" animated={true} translucent={true} /> */}
             {isLoading ?
                 <View style={{ flex: 1, height: screenHeight, alignItems: "center", justifyContent: "center" }}>
                     <Spinner color={themeStyle.PRIMARY_COLOR} size={40} />

@@ -36,7 +36,7 @@ const ProfileScreen = ({ navigation }) => {
             style={[styles.container, { backgroundColor: '#FFFFFF', }]}
         >
             <HeaderNavbar navigation={navigation} title={'Profile'} />
-            {/* <StatusBar backgroundColor={themeStyle.PRIMARY_COLOR} barStyle="light-content" animated={true} translucent={true} /> */}
+            {/* <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" animated={true} translucent={true} /> */}
 
         </View>
     );

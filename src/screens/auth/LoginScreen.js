@@ -40,7 +40,7 @@ const LoginScreen = (props) => {
 
   return (
     <Screen type={"fixed"} style={{ padding: 25 }}>
-      <StatusBar backgroundColor="rgba(0,0,0,0.5)" barStyle="light-content" translucent={true} />
+      <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" translucent={true} />
 
       <View style={[defaultStyles.container, {}]}>
         <Text style={[defaultStyles.baseTextExtraBold, { fontSize: 42, paddingTop: 94 }]}>Login</Text>

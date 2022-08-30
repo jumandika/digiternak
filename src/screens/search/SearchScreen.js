@@ -12,7 +12,7 @@ const SearchScreen = ({ navigation }) => {
         <View
             style={[styles.container, { backgroundColor: '#FFFFFF', justifyContent: 'center', alignItems: 'center' }]}
         >
-      {/* <StatusBar backgroundColor={themeStyle.PRIMARY_COLOR} barStyle="light-content" animated={true} translucent={true} /> */}
+      {/* <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" animated={true} translucent={true} /> */}
             <Text style={[defaultStyles.baseTextBold, {}]} numberOfLines={1}>SEARCH</Text>
         </View>
     );

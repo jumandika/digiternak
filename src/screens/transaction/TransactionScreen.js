@@ -80,7 +80,7 @@ const TransactionScreen = ({ navigation }) => {
             style={[styles.container, { backgroundColor: '#F7F7F7', }]}
         >
             <HeaderNavbar navigation={navigation} title={'Transaksi'} />
-            {/* <StatusBar backgroundColor={themeStyle.PRIMARY_COLOR} barStyle="light-content" animated={true} translucent={true} /> */}
+            {/* <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" animated={true} translucent={true} /> */}
             {isLoading ?
                 <View style={{ flex: 1, height: screenHeight / 1.5, alignItems: "center", justifyContent: "center" }}>
                     <Spinner color={themeStyle.PRIMARY_COLOR} size={40} />

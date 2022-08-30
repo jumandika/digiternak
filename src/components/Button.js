@@ -7,7 +7,12 @@ const Touchable = ({ children, onPress }) => {
   if (Platform.OS == "ios") {
     return <TouchableOpacity onPress={onPress}>{children}</TouchableOpacity>;
   } else {
-    <TouchableNativeFeedback onPress={onPress}>{children}</TouchableNativeFeedback>;
+    return <TouchableNativeFeedback
+      onPress={onPress}
+      background={TouchableNativeFeedback.Ripple('rgba(0,0,0,0.05)')}
+      useForeground={true}
+    >{children}
+    </TouchableNativeFeedback>;
   }
 };
 

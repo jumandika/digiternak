@@ -5,6 +5,7 @@ import { FlatList, } from 'react-native-gesture-handler';
 import { useDispatch, useSelector } from 'react-redux';
 import { addCart, deleteCart, getCart, updateCart } from '../service/Apis';
 import { defaultStyles } from '../styles/defaultStyles';
+import themeStyle from '../styles/theme.style';
 import useDebounce from '../utils/useDebounce';
 import { ProductContent } from './ProductContent';
 const screenWidth = Math.round(Dimensions.get('window').width);
@@ -20,9 +21,9 @@ const ProductCard = (props) => {
   const debouncedValue = useDebounce(cartQty, 500)
   const [activeItem, setActiveItem] = useState({ id: null })
 
-  useEffect(() => {
-    cartQty > 0 && doUpdateCart()
-  }, [debouncedValue])
+  // useEffect(() => {
+  //   cartQty > 0 && doUpdateCart()
+  // }, [debouncedValue])
 
   const toDetailProduct = (item) => {
     props.navigation.navigate('DetailProduct', { productId: item.id })
@@ -51,9 +52,7 @@ const ProductCard = (props) => {
       "qty": cartQty
     }
 
-    // console.log('body doUpdateCart', body);
     const response = await updateCart(body);
-    // console.log('response updateCart', response);
     getCartDetail()
   }
 
@@ -127,65 +126,38 @@ const ProductCard = (props) => {
     return (
       <ProductContent
         key={item.id}
-        onPress={() => toDetailProduct(item)}
-        addToCart={() => addToCart(item)}
         item={item}
-        activeItem={activeItem}
-        onIncrement={() => onIncrement(item)}
-        onDecrement={() => onDecrement(item)}
         isLoading={isLoading}
-        vertical={props.vertical}
       />
     )
   }, [
     isLoading,
-    cartQty,
-    activeItem
   ]);
 
   return (
-    <View style={{ marginTop: 5, backgroundColor: '#FFF' }}>
-      {!props.vertical &&
-        <View style={{ flex: 1, paddingVertical: 15, paddingHorizontal: 15, flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Text style={[defaultStyles.baseTextBold, { fontSize: 20 }]}>{props.dataProduct[0].name}</Text>
-          <TouchableOpacity >
-            <Text style={defaultStyles.linkText}>{'Lihat Semua'}</Text>
-          </TouchableOpacity>
-        </View>
-      }
-      {props.vertical || props.category ?
-        <FlatList
-          contentContainerStyle={{ minWidth: screenWidth, }}
-          data={props.dataProduct}
-          numColumns={2}
-          decelerationRate="normal"
-          scrollEventThrottle={16}
-          removeClippedSubviews={true}
-          initialNumToRender={1}
-          windowSize={5}
-          maxToRenderPerBatch={2}
-          updateCellsBatchingPeriod={100}
-          showsHorizontalScrollIndicator={false}
-          renderItem={renderItem}
-          keyExtractor={item => item.id}
-        />
-        :
-        <FlatList
-          contentContainerStyle={{ minWidth: screenWidth, }}
-          data={props.dataProduct[0].product}
-          horizontal={true}
-          decelerationRate="normal"
-          scrollEventThrottle={16}
-          removeClippedSubviews={true}
-          initialNumToRender={1}
-          windowSize={5}
-          maxToRenderPerBatch={1}
-          updateCellsBatchingPeriod={100}
-          showsHorizontalScrollIndicator={false}
-          renderItem={renderItem}
-          keyExtractor={item => item.id}
-        />
-      }
+    <View >
+      <View style={{ flex: 1, paddingVertical: 25, paddingHorizontal: 25, }}>
+        <Text style={[defaultStyles.baseTextBold, { fontSize: 28 }]}>{props.title}</Text>
+        {props.description &&
+          <Text style={[defaultStyles.baseText, {color: themeStyle.GREY,fontSize: 20 }]}>{props.description}</Text>
+        }
+      </View>
+      <FlatList
+        contentContainerStyle={{ minWidth: screenWidth, paddingLeft: 25, paddingBottom: 15 }}
+        data={props.dataProduct}
+        horizontal={true}
+        decelerationRate="normal"
+        scrollEventThrottle={16}
+        removeClippedSubviews={true}
+        initialNumToRender={1}
+        windowSize={5}
+        maxToRenderPerBatch={1}
+        updateCellsBatchingPeriod={100}
+        showsHorizontalScrollIndicator={false}
+        renderItem={renderItem}
+        keyExtractor={item => item.id}
+      />
+
     </View>
   );
 }

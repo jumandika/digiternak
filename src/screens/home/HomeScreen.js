@@ -1,22 +1,15 @@
-import React, { useEffect, useRef, useState, useCallback, useMemo } from "react";
-import { View, Text, Image, StyleSheet, StatusBar, Dimensions, SafeAreaView, TouchableOpacity, TextInput, Linking, RefreshControl, ImageBackground, Alert, Animated, ScrollView } from "react-native";
-import helper from "../../utils/helper";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-import Ionicons from "react-native-vector-icons/Ionicons";
-import { GoogleSignin, GoogleSigninButton, statusCodes } from "@react-native-community/google-signin";
-import RNBootSplash from "react-native-bootsplash";
-import themeStyle from "../../styles/theme.style";
-import SearchHome from "../../components/SearchHome";
-import ProductCard from "../../components/ProductCard";
-import { defaultStyles } from "../../styles/defaultStyles";
-import { getCart, getCategory, getProduct } from "../../service/Apis";
-import { getAllKeys, getLocalObject } from "../../utils/asyncStorage";
 import axios from "axios";
-import { CategoryList } from "../../components/CategoryList";
-import { useDispatch, useSelector } from "react-redux";
+import React, { useEffect, useState } from "react";
+import { Dimensions, Image, ImageBackground, RefreshControl, ScrollView, StatusBar, StyleSheet, Text, View } from "react-native";
+import RNBootSplash from "react-native-bootsplash";
+import { useDispatch } from "react-redux";
+import { MenuProduct } from "../../components/MenuProduct";
+import ProductCard from "../../components/ProductCard";
 import { Spinner } from "../../components/Spinner";
-import LinearGradient from "react-native-linear-gradient";
-import { HeaderNavbar } from "../../components/HeaderNavbar";
+import { getCart, getCategory, getProduct } from "../../service/Apis";
+import { defaultStyles } from "../../styles/defaultStyles";
+import themeStyle from "../../styles/theme.style";
+import { getLocalObject } from "../../utils/asyncStorage";
 
 const screenWidth = Math.round(Dimensions.get("window").width);
 const screenHeight = Math.round(Dimensions.get("window").height);
@@ -27,8 +20,65 @@ const HomeScreen = ({ navigation }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [userData, setUserData] = useState({});
 
-  const [dataProduct, setDataProduct] = React.useState([]);
-  const [categoryList, setCategoryList] = useState([]);
+  const [dataProduct, setDataProduct] = React.useState([
+    {
+      id: 1,
+      farmerName: 'Makmur Farm',
+      region: 'Surabaya',
+      rating: '4.8',
+      ratePrice: 'Rp 21 - 65 Juta',
+      path: require('../../../assets/goat1.png')
+    },
+    {
+      id: 2,
+      farmerName: 'Juragan Kambing',
+      region: 'Garut',
+      rating: '4.7',
+      ratePrice: 'Rp 3.5 - 7.5 Juta',
+      path: require('../../../assets/goat.png')
+    },
+    {
+      id: 3,
+      farmerName: 'Juragan Kambing',
+      region: 'Garut',
+      rating: '4.7',
+      ratePrice: 'Rp 3.5 - 7.5 Juta',
+      path: require('../../../assets/goat.png')
+    },
+  ]);
+  const [menuProduct, setMenuProduct] = useState([
+    {
+      id: 1,
+      name: 'Pasar\nHewan',
+      path: require('../../../assets/pasar-hewan.png')
+    },
+    {
+      id: 2,
+      name: 'Qurban\nBerbagi',
+      path: require('../../../assets/qurban-berbagi.png')
+    },
+    {
+      id: 3,
+      name: 'Salam\nQurban',
+      path: require('../../../assets/salam-qurban.png')
+    },
+    {
+      id: 4,
+      name: 'Cicilan\nQurban',
+      path: require('../../../assets/cicilan-qurban.png')
+    },
+    {
+      id: 5,
+      name: 'Kandang\nAqiqah',
+      path: require('../../../assets/kandang-aqiqah.png')
+    },
+    {
+      id: 6,
+      name: 'Kandang\nMart',
+      path: require('../../../assets/kandang-mart.png')
+    },
+
+  ]);
 
   const dispatch = useDispatch();
 
@@ -41,7 +91,7 @@ const HomeScreen = ({ navigation }) => {
 
   useEffect(() => {
     RNBootSplash.hide();
-    initData();
+    // initData();
   }, []);
 
   const onRefresh = () => {
@@ -69,11 +119,11 @@ const HomeScreen = ({ navigation }) => {
           }
           if (response2.status === true) {
             console.log("response CATEGORY", response2);
-            setCategoryList(response2.data);
+            setMenuProduct(response2.data);
           }
           if (response3.status === true) {
             console.log("response CART", response3);
-            // setCategoryList(response3.data)
+            // setMenuProduct(response3.data)
             dispatch({
               type: "SET_DETAIL_CART",
               detailCart: response3.data.carts,
@@ -104,14 +154,14 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <View style={[styles.container, { backgroundColor: "#F7F7F7" }]}>
-      <StatusBar backgroundColor="rgba(255,255,255,0.0)" barStyle="light-content" translucent={true} />
-      {!statusBarLight && <StatusBar backgroundColor={themeStyle.PRIMARY_COLOR} barStyle="light-content" animated={true} translucent={true} />}
+      <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR} barStyle="light-content" translucent={true} />
+      {!statusBarLight && <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR} barStyle="light-content" animated={true} translucent={true} />}
       {/* <HeaderNavbar /> */}
       <ScrollView contentContainerStyle={{ paddingBottom: 40 }} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
-        <ImageBackground resizeMode="cover" source={require("../../../assets/bg_home.png")} style={{ height: 221, width: "100%" }}>
-          <View style={{ padding: 20, paddingTop: 45, flexDirection: "row", justifyContent: "space-between" }}>
-            <Image source={require("../../../assets/Digiternak.png")} style={{ resizeMode: "contain", height: 50, width: 120, marginRight: 15 }} />
-            <Image source={require("../../../assets/Notif.png")} style={{ height: 20, width: 20 }} />
+        <ImageBackground resizeMode="cover" source={require("../../../assets/bg_home.png")} style={{ height: 250, width: "100%" }}>
+          <View style={{ padding: 20, paddingTop: 45, flexDirection: "row", alignItems: 'center', justifyContent: "space-between" }}>
+            <Image source={require("../../../assets/Digiternak.png")} style={{ resizeMode: "contain", height: 35, width: 90, }} />
+            <Image source={require("../../../assets/Notif.png")} style={{ height: 15, width: 15 }} />
           </View>
           <View style={[defaultStyles.baseTextExtra, { paddingTop: 24, marginLeft: 25 }]}>
             <Text style={[defaultStyles.linkText]}>Selamat datang di</Text>
@@ -120,19 +170,21 @@ const HomeScreen = ({ navigation }) => {
             <Text style={[defaultStyles.baseTextExtra]}>Digiternak</Text>
           </View>
         </ImageBackground>
-        {isLoading ? (
+        <MenuProduct navigation={navigation} menuProduct={menuProduct} />
+        <ProductCard navigation={navigation} dataProduct={dataProduct} title={'Peternak Pilihan'} description={'Para peternak berdedikasi tinggi'} />
+        {/* {isLoading ? (
           <View style={{ flex: 1, height: screenHeight / 1.5, alignItems: "center", justifyContent: "center" }}>
             <Spinner color={themeStyle.PRIMARY_COLOR} size={40} />
           </View>
         ) : (
           <View style={{ flex: 1, paddingTop: 25 }}>
-            {categoryList.length > 0 && <CategoryList navigation={navigation} categoryList={categoryList} />}
+            {MenuProduct.length > 0 && <MenuProduct navigation={navigation} MenuProduct={MenuProduct} />}
 
             {dataProduct.map((item, index) => (
               <ProductCard key={item.id} navigation={navigation} dataProduct={item} userId={userData.id} />
             ))}
           </View>
-        )}
+        )} */}
       </ScrollView>
     </View>
   );
