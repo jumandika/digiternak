@@ -35,14 +35,14 @@ const HomeScreen = ({ navigation }) => {
       region: 'Garut',
       rating: '4.7',
       ratePrice: 'Rp 3.5 - 7.5 Juta',
-      path: require('../../../assets/goat.png')
+      path: require('../../../assets/goat2.jpeg')
     },
     {
       id: 3,
-      farmerName: 'Juragan Kambing',
-      region: 'Garut',
-      rating: '4.7',
-      ratePrice: 'Rp 3.5 - 7.5 Juta',
+      farmerName: 'Barokah Farm',
+      region: 'Malang',
+      rating: '4.5',
+      ratePrice: 'Rp 2.8 - 8.5 Juta',
       path: require('../../../assets/goat.png')
     },
   ]);
