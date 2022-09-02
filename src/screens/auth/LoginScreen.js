@@ -40,7 +40,7 @@ const LoginScreen = (props) => {
 
   return (
     <Screen type={"fixed"} style={{ padding: 25 }}>
-      <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR}  barStyle="light-content" translucent={true} />
+      <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR} barStyle="light-content" translucent={true} />
 
       <View style={[defaultStyles.container, {}]}>
         <Text style={[defaultStyles.baseTextExtraBold, { fontSize: 42, paddingTop: 94 }]}>Login</Text>
@@ -89,7 +89,7 @@ const LoginScreen = (props) => {
           <Gap height={22} />
           <Text style={[defaultStyles.baseText, { alignSelf: "center" }]}>Atau</Text>
           <Gap height={22} />
-          <Button type={"google"} onPress={() => (prevScreen ? submitRegistrationStaff() : submitRegistration())} label="Masuk dengan Akun Google">
+          <Button type={"google"} onPress={() => props.navigation.push("DataPesananScreen")(prevScreen ? submitRegistrationStaff() : submitRegistration())} label="Masuk dengan Akun Google">
             {isLoading && <Spinner />}
           </Button>
         </View>
@@ -98,7 +98,7 @@ const LoginScreen = (props) => {
         <TouchableOpacity onPress={() => props.navigation.navigate("RegistrationScreen")}>
           <Text style={[defaultStyles.baseText, { padding: 5 }]}>Belum punya Akun?</Text>
         </TouchableOpacity>
-        <Gap width={70} />
+        <Gap width={90} />
         <TouchableOpacity onPress={() => props.navigation.navigate("LupaScreen")}>
           <Text style={[defaultStyles.baseText, { padding: 5, color: themeStyle.Darkgrey }]}>Lupa Password</Text>
         </TouchableOpacity>

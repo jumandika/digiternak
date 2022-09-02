@@ -8,7 +8,7 @@ const defaultStyles = StyleSheet.create({
   },
   baseText: {
     fontFamily: fontStyle.NunitoSansRegular,
-    fontSize: 16,
+    fontSize: 14,
     color: themeStyle.BLACK,
   },
   linkText: {
@@ -40,6 +40,11 @@ const defaultStyles = StyleSheet.create({
     fontFamily: fontStyle.NunitoSansExtraBold,
     fontSize: 33,
     color: "#FFF",
+  },
+  baseText2: {
+    fontFamily: fontStyle.NunitoSansRegular,
+    fontSize: 14,
+    color: themeStyle.Darkgrey,
   },
   buttonContainer: {
     overflow: "hidden",

@@ -1,8 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Dimensions, Image, ImageBackground, RefreshControl, ScrollView, StatusBar, StyleSheet, Text, View } from "react-native";
+import { Dimensions, TouchableOpacity, ImageBackground, RefreshControl, ScrollView, StatusBar, StyleSheet, Text, View } from "react-native";
 import RNBootSplash from "react-native-bootsplash";
 import { useDispatch } from "react-redux";
+import { HeaderNavbar } from "../../components/HeaderNavbar";
 import { MenuProduct } from "../../components/MenuProduct";
 import ProductCard from "../../components/ProductCard";
 import { Spinner } from "../../components/Spinner";
@@ -15,7 +16,7 @@ import { VoucherScreen } from "../voucher/VoucherScreen";
 const screenWidth = Math.round(Dimensions.get("window").width);
 const screenHeight = Math.round(Dimensions.get("window").height);
 
-const HomeScreen = ({ navigation }) => {
+const QurbanBerbagi = ({ navigation }) => {
   const [statusBarLight, setStatusBarLight] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
@@ -219,23 +220,21 @@ const HomeScreen = ({ navigation }) => {
       {!statusBarLight && <StatusBar backgroundColor={themeStyle.SECONDARY_COLOR} barStyle="light-content" animated={true} translucent={true} />}
       {/* <HeaderNavbar /> */}
       <ScrollView contentContainerStyle={{ paddingBottom: 40 }} refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}>
-        <ImageBackground resizeMode="cover" source={require("../../../assets/bg_home.png")} style={{ height: 250, width: "100%" }}>
-          <View style={{ padding: 20, paddingTop: 45, flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}>
-            <Image source={require("../../../assets/Digiternak.png")} style={{ resizeMode: "contain", height: 35, width: 90 }} />
-            <Image source={require("../../../assets/Notif.png")} style={{ height: 15, width: 15 }} />
-          </View>
-          <View style={[defaultStyles.baseTextExtra, { paddingTop: 24, marginLeft: 25 }]}>
-            <Text style={[defaultStyles.linkText]}>Selamat datang di</Text>
-          </View>
-          <View style={[{ marginLeft: 25 }]}>
-            <Text style={[defaultStyles.baseTextExtra]}>Digiternak</Text>
-          </View>
-        </ImageBackground>
-        <MenuProduct navigation={navigation} menuProduct={menuProduct} title="Produk" />
-        <ProductCard navigation={navigation} dataProduct={dataProduct} title={"Peternak Pilihan"} description={"Para peternak berdedikasi tinggi"} isImageBackground />
+        <HeaderNavbar title="Qurban Berbagi" />
+        <View>
+          <TouchableOpacity>
+            <ImageBackground resizeMode="cover" source={require("../../../assets/salamqurba1.png")} style={{ height: 250, width: "100%" }} sc>
+              <ImageBackground resizeMode="cover" source={require("../../../assets/salamqurba1.png")} style={{ height: 250, width: "100%" }} sc>
+                <View style={{ padding: 20, paddingTop: 45, flexDirection: "row", alignItems: "center", justifyContent: "space-between" }}></View>
+                <View style={[defaultStyles.baseTextExtra, { paddingTop: 24, marginLeft: 25 }]}></View>
+                <View style={[{ marginLeft: 25 }]}></View>
+              </ImageBackground>
+            </ImageBackground>
+          </TouchableOpacity>
+        </View>
 
-        <ProductCard navigation={navigation} dataProduct={dataNews} title={"Kabar Peternak"} description={"Informasi terkini dari peternak"} />
-        <VoucherScreen />
+        <ProductCard navigation={navigation} title={"Apa itu Qurban Berbagi?"} description={"Para peternak berdedikasi tinggi"} isImageBackground />
+
         <MenuProduct navigation={navigation} menuProduct={menuFAQ} numColumns={2} title="Mengapa Kandang Qurban?" />
 
         {/* {isLoading ? (
@@ -292,4 +291,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export { QurbanBerbagi };

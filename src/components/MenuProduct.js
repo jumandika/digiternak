@@ -40,6 +40,7 @@ const MenuProduct = ({ navigation, menuProduct, numColumns = 3, title }) => {
         windowSize={5}
         maxToRenderPerBatch={1}
         removeClippedSubviews={true}
+        onPress={() => navigation.navigate("ChooseDoctor")}
       />
     </View>
   );

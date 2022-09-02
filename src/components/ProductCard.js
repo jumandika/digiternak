@@ -143,7 +143,9 @@ const ProductCard = (props) => {
         showsHorizontalScrollIndicator={false}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
+        onPress={() => navigation.navigate("DataPesananScreen")}
       />
+      <View></View>
     </View>
   );
 };

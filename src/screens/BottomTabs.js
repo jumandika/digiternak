@@ -6,11 +6,12 @@ import Feather from "react-native-vector-icons/Feather";
 import HomeScreen from "./home/HomeScreen";
 import themeStyle from "../styles/theme.style";
 import fontStyle from "../styles/font.style";
-import SearchScreen from "./search/SearchScreen";
+import { Order } from "./auth/Order";
 import TransactionScreen from "./transaction/TransactionScreen";
 import ProfileScreen from "./profile/ProfileScreen";
 import CartScreen from "./transaction/CartScreen";
 import { CartButton } from "../components/CartButton";
+import { QurbanBerbagi } from "./auth/QurbanBerbagi";
 const Tab = createBottomTabNavigator();
 
 const BottomTabs = () => {
@@ -35,8 +36,8 @@ const BottomTabs = () => {
         }}
       />
       <Tab.Screen
-        name="SearchScreen"
-        component={SearchScreen}
+        name="Order"
+        component={Order}
         options={{
           headerShown: false,
           tabBarLabel: "Order",
@@ -55,8 +56,8 @@ const BottomTabs = () => {
         }}
       /> */}
       <Tab.Screen
-        name="TransactionScreen"
-        component={TransactionScreen}
+        name="QurbanBerbagi"
+        component={QurbanBerbagi}
         options={{
           headerShown: false,
           tabBarLabel: "Pesanan",

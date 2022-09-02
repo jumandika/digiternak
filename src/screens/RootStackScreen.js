@@ -18,6 +18,9 @@ import { MapScreen } from "./address/MapScreen";
 import { VoucherScreen } from "./voucher/VoucherScreen";
 import { ProductPerCatScreen } from "./product/ProductPerCatScreen";
 import { TransactionDetailScreen } from "./transaction/TransactionDetailScreen";
+import { DataPesananScreen } from "./auth/DataPesananScreen";
+import { Order } from "./auth/Order";
+import { QurbanBerbagi } from "./auth/QurbanBerbagi";
 
 const RootStack = createNativeStackNavigator();
 
@@ -62,6 +65,28 @@ const RootStackScreen = ({ navigation, initialRouteName }) => {
       <RootStack.Screen
         name="RegistrationScreen"
         component={RegistrationScreen}
+        options={{
+          headerShown: false,
+        }}
+      />
+
+      <RootStack.Screen
+        name="DataPesananScreen"
+        component={DataPesananScreen}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <RootStack.Screen
+        name="Order"
+        component={Order}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <RootStack.Screen
+        name="QurbanBerbagi"
+        component={QurbanBerbagi}
         options={{
           headerShown: false,
         }}
